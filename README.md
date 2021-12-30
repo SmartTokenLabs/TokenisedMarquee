@@ -3,7 +3,7 @@
 
 This project illustrates the power of TokenScript and Token Centric thinking applied to a real world example
 
-Imagine a prestigious advertising location with a digital display. You may be thinking of Times Square, Akihabara, Shanghai, Dubai airport or even just a digital subway billboard located in a busy station in Sydney Australia.
+Imagine a prestigious advertising location with a digital display. You may be thinking of Times Square, Akihabara, Shanghai, Heathrow or Dubai airport or even just a digital subway billboard located in a busy station in Sydney Australia.
 
 How would you show your advert there? How would you control when it will be shown? How would you ensure the owners of that space get paid so the billboard stays in place and there is incentive to maintain it? What if you wanted to speculate on access to this billboard to encourage and drive enhancements?
 
