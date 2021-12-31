@@ -11,6 +11,8 @@ In this example we show a very basic system in order for learning how TokenScrip
 
 This sample shows tokenised access to a simple digital marquee which can show a scrolling message. We will go through all the steps to set this up: Minting an ERC721 token contract, setting up a TokenScript for this contract, mint some NFT access tokens using TokenScript, then setting up the marquee with Web3E to allow owners of the token to display messages. 
 
+[![SC2 Video](https://user-images.githubusercontent.com/12689544/147811768-53f65be0-1c50-444d-bd62-259eb0329a5c.gif)](https://youtu.be/qcksv5Vzxfc)
+
 In the second part of this application we will build on the sample to create a system where weekly advertising timeslots are controlled by NFTs, and display adverts are posted by burning an ERC20 currency token.
 
 1. Mint an ERC721 test token using [our automated mint facility](https://jamessmartcell.github.io/) which should work with every wallet that supports WalletConnect. It's best if you use AlphaWallet as we will be using TokenScript functionality later. Pick whichever style of asset suits you. Note that this facility also mints the first token for you so will appear in the wallet.
