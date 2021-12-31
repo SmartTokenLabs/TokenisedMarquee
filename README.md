@@ -14,6 +14,7 @@ This sample shows tokenised access to a simple digital marquee which can show a 
 In the second part of this application we will build on the sample to create a system where weekly advertising timeslots are controlled by NFTs, and display adverts are posted by burning an ERC20 currency token.
 
 1. Mint an ERC721 token that has the ```mintUsingSequentialTokenId()``` function for simplified minting (Our test TokenScript uses this function).
-2. Edit the attached TokenScript to point at the created token.
-3. Mint a few ERC721 tokens on this new contract easily using TokenScript.
-4. Deploy the Firmware on the ESP32 hardware and determine the hardware lookup address.
+   - Use [our automated mint facility](https://jamessmartcell.github.io/) which should work with every wallet that supports WalletConnect. It's best if you use AlphaWallet as we will be using TokenScript functionality later. Pick whichever style of asset suits you. Note that this facility also mints the first token for you so will appear in the wallet.
+3. Edit the attached TokenScript to point at the created token.
+4. Mint a few ERC721 tokens on this new contract easily using TokenScript.
+5. Deploy the Firmware on the ESP32 hardware and determine the hardware lookup address.
