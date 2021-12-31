@@ -13,8 +13,7 @@ This sample shows tokenised access to a simple digital marquee which can show a 
 
 In the second part of this application we will build on the sample to create a system where weekly advertising timeslots are controlled by NFTs, and display adverts are posted by burning an ERC20 currency token.
 
-1. Mint an ERC721 token that has the ```mintUsingSequentialTokenId()``` function for simplified minting (Our test TokenScript uses this function).
-   - Use [our automated mint facility](https://jamessmartcell.github.io/) which should work with every wallet that supports WalletConnect. It's best if you use AlphaWallet as we will be using TokenScript functionality later. Pick whichever style of asset suits you. Note that this facility also mints the first token for you so will appear in the wallet.
+1. Mint an ERC721 test token using [our automated mint facility](https://jamessmartcell.github.io/) which should work with every wallet that supports WalletConnect. It's best if you use AlphaWallet as we will be using TokenScript functionality later. Pick whichever style of asset suits you. Note that this facility also mints the first token for you so will appear in the wallet.
 2. Determine the address of the new contract. If you know your wallet address you can easily look this up in etherscan. Otherwise, in AlphaWallet, go to the Activity page, locate the constructor transaction at the top of the page and click it, then click on the 'extra info' button in the top right (three horizontal lines). You can now click on click the copy button for the address of the 'Message Writer Token (MSG)' 
 3. Edit the attached TokenScript to point at the created token.
    - Open the messagetoken.xml TokenScript in this repo.
