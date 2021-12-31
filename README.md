@@ -26,9 +26,10 @@ In the second part of this application we will build on the sample to create a s
 5. Locate the new token. Click on it. You should have 1 token showing. If no tokens show, simply wait for sync and try again.
 6. Try the TokenScript 'Mint' verb in the token. You can use this button to mint new NFTs and send them to your friends.
 7. Open the Platform.io TokenMarquee project in VSCode or Atom
-8. Edit the WiFi password details so it can access your 2.4G WiFi.
-9. Connect an ESP32 devkit to your PC and flash the TokenMarquee Firmware from Platform.io
-10. Run the Firmware and read the Serial output, you will see something like this:
+8. Edit the WiFi password details so it can access your 2.4G WiFi. You can also add a secondary WiFi, maybe your phone hotspot just in case.
+9. Edit the MESSAGE_CONTRACT to your minted NFT contract address, the same one as in step 3.
+10. Connect an ESP32 devkit to your PC and flash the TokenMarquee Firmware from Platform.io
+11. Run the Firmware and read the Serial output, you will see something like this:
 
 ```
 Recovering key from EEPROM
